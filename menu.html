@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz interactivo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@1,14..32,100..900&display=swap"
+        rel="stylesheet">
+        <link rel="shortcut icon" href="iconos/logo_pagina.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <main>
+        <h1 class="menu__titulo">Hola <span class="menu__nombre-usuario">User</span></h1>
+        <h2 class="menu__subtitulo">Escoge una categoria</h2>
+        <p>Puntos <span class="menu__acertados">0</span>
+            /
+            <span class="menu__puntos">0</span>
+        </p>
+        <div class="menu__contenedor">
+            <div class="menu__elemento" id="historia">
+                <h2 class="elemento__titulo">Historia</h2>
+                <img class="elemento__img" src="iconos/logo_historia.svg" alt="circulo con libro adentro">
+            </div>
+            <div class="menu__elemento" id="programacion">
+                <h2 class="elemento__titulo">Programación</h2>
+                <img class="elemento__img" src="iconos/logo_programacion.svg" alt="circulo con un lego adentro">
+            </div>
+            <div class="menu__elemento" id="deporte">
+                <h2 class="elemento__titulo">Deporte</h2>
+                <img class="elemento__img" src="iconos/logo_deporte.svg" alt="circulo con pesas adentro">
+            </div>
+            <div class="menu__elemento" id="general">
+                <h2 class="elemento__titulo">General</h2>
+                <img class="elemento__img" src="iconos/logo_general.svg" alt="circulo con estrella adentro">
+            </div>
+            <div class="menu__elemento" id="geografia">
+                <h2 class="elemento__titulo">Geografía</h2>
+                <img class="elemento__img" src="iconos/logo_geografia.svg" alt="circulo con globo terraquio adentro">
+            </div>
+            <div class="menu__elemento" id="peliculas">
+                <h2 class="elemento__titulo">Películas</h2>
+                <img class="elemento__img" src="iconos/logo_peliculas.svg" alt="circulo con signo de iniciar adentro">
+            </div>
+        </div>
+    </main>
+
+</body>
+    <script src="js/menu.js"></script>
+</html>
